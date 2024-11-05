@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario#3</title>
+</head>
+<body>
+    <div><a href="./exercicios.html">Voltar</a></div>
+    <div>
+        <h2>Formularios</h2>
+        <form action="./exercicios.html" method="get">
+            <div>
+                <div><label for="name">Nome</label></div>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <div><label for="email">E-mail</label></div>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <div><label for="password">Senha</label></div>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <div><label for="description">Descrição</label></div>
+                <textarea name="description" id="description" cols="25" rows="5"></textarea>
+            </div>
+            <div>
+                <div>Qual seu País</div>
+                <input type="radio" name="Country" id="Brasil" value="Brasil">
+                <label for="Brasil">Brasil</label>
+                <input type="radio" name="Country" id="Argentina" value="Argentina">
+                <label for="Argentina">Argentina</label>
+                <input type="radio" name="Country" id="Paraguay" value="Paraguay">
+                <label for="Paraguay">Paraguay</label>
+                <input type="radio" name="Country" id="Portugal" value="Portugal">
+                <label for="Portugal">Portugal</label>
+            </div>
+            <div>
+                <button>Salvar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
